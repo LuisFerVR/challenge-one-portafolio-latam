@@ -41,10 +41,24 @@ https://en.bem.info/methodology/quick-start/*/
 
 /*Sección Menu*/
 
-section.menu{
-
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.menu__header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
+.menu__list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 32px;
+    align-items: center;
+}
 /*Sección Title*/
 
 .title__network{
@@ -151,16 +165,62 @@ section.experience{
 
 /*Contacto*/
 
-section.formcontato{
-
+.formcontato{
+    display: flex;
+    justify-content: center;
+    background-color: lightcyan;
+    padding: 5%;
+    
+}
+.formcontato__contacto{
+    display: flex;
+    flex-direction: row;
+}
+.formcontato__text{
+    display: flex;
+    flex-direction: column;
+    padding-left: 1%;
+    width: 656px;
+    height: 596px;
+}
+.formcontato__text h2{
+    margin-bottom: 0%;
+}
+.formcontato__text h3, h4{
+    font-size: small;
+    font-weight: lighter;
+    background-color: antiquewhite;
+    border: #000 solid;
+}
+.formcontato__form{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
 }
 
+.formcontato__input{
+    width: 656px;
+    height: 56px;
+}
+.formcontato__textarea{
+    width: 656px;
+    height: 133px;
+}
+
+.formcontato__botao{
+    width: 144px;
+    height: 51px;
+    color: #FFFFFF;
+    background-color: #2A7AE4;
+}
 /*footeer*/
 
-section.footer{
-   
+.footer__rodape{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-
 /* Vamos a desafiarnos trabajando con responsividad?
 Utiliza las referencias de los breakpoints @media abajo */
 
