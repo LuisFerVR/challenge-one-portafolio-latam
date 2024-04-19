@@ -63,6 +63,7 @@ https://en.bem.info/methodology/quick-start/*/
     border-radius: 100%;
     width: 368px;
     height: 368px;
+    float: right;
 }
 .title__bio{
     font-size: 75px;
@@ -220,8 +221,71 @@ https://en.bem.info/methodology/quick-start/*/
 }
 /* experiencia*/
 
-section.experience{
+.experience{
+    display: flex;
+    flex-direction: column;
+}
+.experience__section__title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+}
+.experience__box{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 5%;
+}
+.experiencie__box{
+    display: flex;
+    flex-direction: row;
+    padding-left: 6%;
+}
+.experience__img{
+    flex-grow: .26;
+}
+.experience__info{
+    margin-left: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.experience__info__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding-right: 10%;
+    width: 37.4%;
+}
+.experience__info__subContainer{
+    display: flex;
+    flex-direction: column;
+}
 
+.experience__title {
+    order: 2;
+    font-weight: lighter;
+    font-size: 13px;
+}
+.experience__text {
+    order: 1;
+    margin-bottom: 0%;
+}
+.experience__description {
+    order: 3;
+}
+.experiencia__botao--repo{
+    border: #2A7AE4 solid 2px;
+    color: #2A7AE4;
+    width: 116px;
+    height: 51px;
+}
+.experience__botao--demo{
+    width: 116px;
+    height: 51px;
+    background-color: #2a7ae4;
+    color: #FFFFFF;
 }
 
 /*Contacto*/
