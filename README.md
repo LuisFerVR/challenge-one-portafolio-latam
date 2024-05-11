@@ -16,7 +16,10 @@
 #### 🔹index.html: Documento HTML concluído que puedes utilizar en tu proyecto. Las fuentes, los archivos CSS y Javascript ya están referenciados en el documento y todas las secciones contienen comentários que te ayudan a entender la estructura. Si quieres, puedes aventurarte y contruir tu propio HTML.
 #### 🔹style.css: Documento de CSS con instrucciones de estilo y algunas sugerencias de desarrollo.
 #### 🔹validacion.js: Documento vacío dónde vas a desarrollar tu lógica de programación para validar formularios usando Javascript.
-
+### Link de despliegue:
+https://luisfervr.github.io/challenge-one-portafolio-latam/
+-----------------------------------------------------------
+## -- DEV-Notes --
 #### Cuando clones o descargues el proyecto base, tendrás la siguiente presentación:
 <p align="center" >
      <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/169064699-f268715c-822c-4335-b066-97a1bc1ea8e1.png">
